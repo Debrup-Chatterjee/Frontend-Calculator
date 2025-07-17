@@ -7,11 +7,11 @@ A stylish and fully functional calculator web app built with HTML, CSS, and Java
 
   • Basic operations: +, -, ×, ÷, %
 
-  • Complex calculations with ( and )
+  • Complex calculations with parentheses ( and ) 
 
-  • Decimal support using .
+  • Decimal support using decimal point .
 
-  • Calculation history display: expression above, result below (like mobile calculators)
+  • Calculation history display: Expression above, Result below (like mobile calculators)
 
   • Functional AC (All Clear) and DEL (Delete last character) buttons
 
