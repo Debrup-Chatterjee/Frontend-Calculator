@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head> 
+<body onload="document.getElementById('screen').focus()">
+<table cellpadding="5"  id="table">
+<tr>
+<th colspan="4"><input type="text" id="history" readonly/></th>
+</tr>
+<tr>
+<th colspan="4"><input type="text" id="screen"/></th>
+</tr>
+<tr>
+<td><input type="button" value="(" onclick="display(this)" class="operator"></input></td>
+<td><input type="button" value=")" onclick="display(this)" class="operator"></input></td>
+<td><input type="button" value="/" onclick="display(this)" class="operator"></input></td>
+<td><input type="button" value="%" onclick="percent()" class="operator"></input></td>
+</tr>
+<tr>
+<td><input type="button" value="+" onclick="display(this)" class="operator"></input></td>
+<td><input type="button" value="-" onclick="display(this)" class="operator"></input></td>
+<td><input type="button" value="*" onclick="display(this)" class="operator"></input></td>
+<td><input type="button" value="DEL" onclick="backspace()" class="operator"></input></td>
+</tr>
+<tr>
+<td><input type="button" value="7" onclick="display(this)" class="operand"></input></td>
+<td><input type="button" value="8" onclick="display(this)" class="operand"></input></td>
+<td><input type="button" value="9" onclick="display(this)" class="operand"></input></td>
+<td rowspan="2"><input type="button" value="AC" onclick="clr()" class="long"></input></td>
+</tr>
+<tr>
+<td><input type="button" value="4" onclick="display(this)" class="operand"></input></td>
+<td><input type="button" value="5" onclick="display(this)" class="operand"></input></td>
+<td><input type="button" value="6" onclick="display(this)" class="operand"></input></td>
+</tr>
+<tr>
+<td><input type="button" value="1" onclick="display(this)" class="operand"></input></td>
+<td><input type="button" value="2" onclick="display(this)" class="operand"></input></td>
+<td><input type="button" value="3" onclick="display(this)" class="operand"></input></td>
+<td rowspan="2"><input type="button" value="=" onclick="result()" class="long"></input></td>
+</tr>
+<tr>
+<td colspan="2"><input type="button" value="0" onclick="display(this)" id="zero"></input></td>
+<td><input type="button" value="." onclick="display(this)" class="operand"></input></td>
+</tr>
+</table>
+</body>
+</html>
