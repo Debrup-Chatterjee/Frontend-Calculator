@@ -4,6 +4,7 @@ A stylish calculator web app built with HTML, CSS, and JavaScript. Inspired by m
 <img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/01c74982-c945-4f56-b8c4-cc1eb84fa667" />
 
 ✨ Features:
+
   • Basic operations: +, -, ×, ÷, %
 
   • Complex calculations with ( and )
