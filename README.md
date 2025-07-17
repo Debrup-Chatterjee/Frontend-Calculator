@@ -7,9 +7,9 @@ A stylish and fully functional calculator web app built with HTML, CSS, and Java
 
   • Basic operations: +, -, ×, ÷, %
 
-  • Complex calculations with parentheses ( and ) 
+  • Complex calculations with parentheses '('  and  ')' 
 
-  • Decimal support using decimal point .
+  • Decimal support using decimal point '.'
 
   • Calculation history display: Expression above, Result below (like mobile calculators)
 
