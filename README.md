@@ -23,6 +23,9 @@ A stylish and fully functional calculator web app built with HTML, CSS, and Java
 1. Clone the repository:
    ```bash
    git clone https://github.com/Debrup-Chatterjee/Frontend-Calculator.git
+2. Open the index.html file in any modern web browser.
+
+No installation or dependencies required — works offline directly in the browser.
 
 
 
