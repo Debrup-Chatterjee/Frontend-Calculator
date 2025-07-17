@@ -1,5 +1,5 @@
 # 📱 Frontend Calculator
-A stylish and fully functional calculator web app built with HTML, CSS, and JavaScript. Inspired by mobile calculator interfaces, it supports both basic and complex arithmetic operations, including parentheses and decimals.
+A stylish calculator web app built with HTML, CSS, and JavaScript. Inspired by mobile calculator interfaces, it supports both basic and complex arithmetic operations, including parentheses and decimals.
 
 ✨ Features:
 • Basic operations: +, -, ×, ÷, %
